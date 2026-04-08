@@ -1,0 +1,89 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,48H72V60H36Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,52H68V56H40Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,48L76,44V52Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,28H26V40H20Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23,24V28H26" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23,23m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,26C84,30 84,36 80,46C76,44 74,40 74,36C74,32 76,30 80,26Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,74H64V84H44Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,78H58V80H54Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,78H50V80H46Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,79m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+</vector><!--<vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:width="108dp"-->
+<!--    android:height="108dp"-->
+<!--    android:viewportWidth="108"-->
+<!--    android:viewportHeight="108">-->
+
+<!--    &lt;!&ndash; Clean monochrome silhouette &ndash;&gt;-->
+<!--    <path-->
+<!--        android:fillColor="@android:color/system_accent1_1000"-->
+<!--        android:pathData="M36,48 L72,48 L72,60 L36,60 Z M40,52 L68,52 L68,56 L40,56 Z"/>-->
+
+<!--    &lt;!&ndash; Antenna &ndash;&gt;-->
+<!--    <path-->
+<!--        android:fillColor="@android:color/system_accent1_1000"-->
+<!--        android:pathData="M72,48 L76,44 L76,52 L72,48 Z"/>-->
+
+<!--    &lt;!&ndash; Thermometer &ndash;&gt;-->
+<!--    <path-->
+<!--        android:fillColor="@android:color/system_accent1_1000"-->
+<!--        android:pathData="M20,28 L26,28 L26,40 L20,40 Z M23,24 L23,28 L26,28"/>-->
+<!--    <circle-->
+<!--        android:fillColor="@android:color/system_accent1_1000"-->
+<!--        android:cx="23" android:cy="23" android:r="2"/>-->
+
+<!--    &lt;!&ndash; Water droplet &ndash;&gt;-->
+<!--    <path-->
+<!--        android:fillColor="@android:color/system_accent1_1000"-->
+<!--        android:pathData="M80,26 Q84,30 82,36 Q84,42 80,46 Q76,44 74,40 Q72,34 76,30 Z"/>-->
+
+<!--    &lt;!&ndash; Motor/gear &ndash;&gt;-->
+<!--    <path-->
+<!--        android:fillColor="@android:color/system_accent1_1000"-->
+<!--        android:pathData="M44,74 L64,74 L64,84 L44,84 Z M54,78 L54,80 L58,80 L58,78 M50,78 L50,80 L46,80 L46,78"/>-->
+<!--    <circle-->
+<!--        android:fillColor="@android:color/system_accent1_1000"-->
+<!--        android:cx="54" android:cy="79" android:r="1.5"/>-->
+<!--</vector>&lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<selector xmlns:android="http://schemas.android.com/apk/res/android">&ndash;&gt;-->
+
+<!--&lt;!&ndash;</selector>&ndash;&gt;-->
