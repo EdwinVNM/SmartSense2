@@ -1,4 +1,5 @@
 ✅ ESP32 multi-node (Center + Motor) via ESP-NOW
+
 ✅ Firebase RTDB live sync (remote access works)  
 ✅ WebSocket local fallback (no internet needed)
 ✅ Gauges (temp/humidity with thresholds)
