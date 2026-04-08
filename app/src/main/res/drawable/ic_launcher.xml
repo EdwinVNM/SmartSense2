@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+        <!-- ESP32 chip base (silhouette) -->
+        <path android:fillColor="#1E40AF" android:pathData="M20,15h68v18H20z"/>
+        <!-- Temp gauge arc (blue→red) -->
+        <path android:fillColor="#3B82F6"
+            android:pathData="M25,20a6,6 0 1 0 12 0a6,6 0 0 0 -12 0"/>
+        <!-- Humidity droplet -->
+        <path android:fillColor="#10B981"
+            android:pathData="M65,25c0,-5 3,-9 7,-9s7,4 7,9c0,5 -3,9 -7,9s-7,-4 -7,-9"/>
+        <!-- Motor gear (bottom right) -->
+        <path android:fillColor="#F59E0B"
+            android:pathData="M80,65a5,5 0 0 1 -5,5h-10a5,5 0 0 1 -5,-5v-10a5,5 0 0 1 5,-5h10a5,5 0 0 1 5,5z
+                         M78,58l2,2 M82,62l-2,2 M78,66l2,2 M74,62l2,-2"/>
+        <!-- "N" badge (SmartSense Nexus) -->
+        <path android:fillColor="#FFFFFF" android:pathData="M10,85l15,-10l0,20z"/>
+    </vector>

@@ -1,0 +1,6 @@
+//This file won't work for you with my google-services.json file so you need to make your own.
+//The steps are easy to follow in the Firebase Console @ https://console.firebase.google.com/
+//Create a new project in firebase.
+//Add your app to this project.
+//Download you own google-services.json file.
+//Add it to the app folder in your Android Studio files.
