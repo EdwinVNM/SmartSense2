@@ -63,7 +63,7 @@ typedef struct __attribute__((packed)) {
 } ack_packet_t;
 
 //ESP‑NOW peers
-uint8_t MOTOR_MAC[] = {0xF5, 0x2D, 0xC9, 0x79, 0x9F, 0x54};
+uint8_t MOTOR_MAC[] = {0x55, 0x55, 0x55, 0x55, 0x55, 0x55}; //Replace with real DC Motor MAC
 
 static uint8_t lastRecvSenderMac[6] = {0};
 static bool haveSender = false;
