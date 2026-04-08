@@ -1,8 +1,10 @@
 Welcome to Smart Sense Nexus (Code Name: Smart Sense 2)
 
 Here you will find the Android Studio (Java) & C++ files necessary to run this ESP32-Based Environmental Monitoring & Motor Control System
-<!-- <img width="4566" height="333" alt="image" src="https://github.com/user-attachments/assets/eecedb57-5abb-4206-8a80-1dcf97ba932f" /> -->
 
+<img width="1517" height="333" alt="image" src="https://github.com/user-attachments/assets/0ad2237a-022a-415f-8aff-d8cdb63e2896" />
+
+<img width="4566" height="333" alt="image" src="https://github.com/user-attachments/assets/eecedb57-5abb-4206-8a80-1dcf97ba932f" />
 
 ✅ ESP32 multi-node (Center + Motor) via ESP-NOW
 
