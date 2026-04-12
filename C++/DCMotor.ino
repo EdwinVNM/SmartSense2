@@ -277,33 +277,45 @@ void onDataRecv(const esp_now_recv_info_t* recv_info, const uint8_t* incomingDat
 
 void setup() {
   Serial.begin(115200);
-  //Motor pins
+  delay(1000);
+  
+  Serial.println("=== Motor Node Starting ===");
+  
+  // Motor pins
   pinMode(motor1Pin1, OUTPUT);
   pinMode(motor1Pin2, OUTPUT);
   pinMode(enable1Pin, OUTPUT);
-
+  
+  Serial.println("Motor pins configured");
+  
   bool ok = ledcAttach(enable1Pin, PWM_FREQ, PWM_RES);
   Serial.print("LEDC attach: ");
   Serial.println(ok ? "OK" : "FAIL");
-  motorStop();
-
-  //ESP-NOW
-  WiFi.mode(WIFI_STA);
-
-  Serial.print("Receiver STA MAC: ");
-  Serial.println(WiFi.macAddress());
-
-  if (esp_now_init() != ESP_OK) {
-    Serial.println("ESP-NOW init failed");
-    return;
+  
+  if (!ok) {
+    Serial.println("PWM setup FAILED - check GPIO14 wiring");
+    while (true) { delay(1000); }
   }
-
+  
+  motorStop();
+  Serial.println("Motor stopped - PWM ready");
+  
+  // ESP-NOW
+  WiFi.mode(WIFI_STA);
+  Serial.print("My STA MAC: ");
+  Serial.println(WiFi.macAddress());
+  
+  if (esp_now_init() != ESP_OK) {
+    Serial.println("ESP-NOW init FAILED");
+    while (true) { delay(1000); }
+  }
+  
   esp_now_register_recv_cb(onDataRecv);
-
-  Serial.println("ESP-NOW receiver ready (AUTO/MANUAL + threshold + ACK)");
+  Serial.println("ESP-NOW receiver ready!");
   Serial.print("Default threshold: ");
   Serial.println(tempThresholdC, 1);
 }
+
 
 void loop() {
   if (lastPacketMs != 0 && (millis() - lastPacketMs > FAILSAFE_MS)) {
