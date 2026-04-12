@@ -24,7 +24,9 @@ public final class UploadScheduler {
 
         PeriodicWorkRequest request =
                 new PeriodicWorkRequest.Builder(CsvUploadWorker.class, 1, TimeUnit.HOURS)
-                        .setConstraints(constraints)
+//                new PeriodicWorkRequest.Builder(CsvUploadWorker.class, 15, TimeUnit.MINUTES)
+
+                .setConstraints(constraints)
                         .build();
 
         WorkManager.getInstance(context.getApplicationContext())
